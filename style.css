@@ -14,7 +14,6 @@ body {
 }
 
 .container {
-  width: 940px;
   height: 100vh;
   display: flex;
   margin: auto;
@@ -54,4 +53,27 @@ body {
   font-weight: 400;
   font-size: 15px;
   margin: 1rem 0;
+}
+
+@media (max-width: 480px) {
+  .QR-container {
+    width: 85%;
+    height: 30rem;
+  }
+
+  .encabezado {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 376px) {
+  .QR-container {
+    height: 29rem;
+  }
+}
+
+@media (max-width:281px){
+  .QR-container{
+    height: 27rem;
+  }
 }
